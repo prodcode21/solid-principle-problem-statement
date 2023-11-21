@@ -5,7 +5,8 @@ public class Lion extends Animal{
 	@Override
 	public void pet() {
 		
-		System.out.println("it is not a pet");
+		
+		throw new UnsupportedOperationException("Not supported");
 	}
 	
 	@Override
